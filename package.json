@@ -1,0 +1,23 @@
+{
+  "name": "godot-engine.italia-bot",
+  "version": "1.0.0",
+  "description": "**come avviare il bot:** apri un terminale sulla cartella che contiene il file *.js* e scrivi `node ge-it-bot.js`, si avvia da solo e dovrebbe restituire il nome del bot se è andato a buon fine.   per comodità puoi anche rinominare il file .js, basta che poi utilizzi il comando `node <nome>.js`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/godot-italia/godot-engine.italia-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/godot-italia/godot-engine.italia-bot/issues"
+  },
+  "homepage": "https://github.com/godot-italia/godot-engine.italia-bot#readme",
+  "dependencies": {
+    "@discordjs/rest": "^1.0.1",
+    "discord.js": "^14.2.0"
+  }
+}
