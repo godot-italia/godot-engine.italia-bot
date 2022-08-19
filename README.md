@@ -1,4 +1,24 @@
 # godot-engine.italia-bot
 
-**come avviare il bot:** apri un terminale sulla cartella che contiene il file *.js* e scrivi `node ge-it-bot.js`, si avvia da solo e dovrebbe restituire il nome del bot se è andato a buon fine.  
-per comodità puoi anche rinominare il file .js, basta che poi utilizzi il comando `node <nome>.js`
+Creare il file `./config.json` con il seguente formato
+```json
+{
+    "token":"<token del bot>",
+    "clientId":"<id del bot>",
+    "guildId":"<id del server>"
+}
+```
+
+### Node
+se si ha `node` installato, lanciare i comandi
+```bash
+$> node i
+$> node index.js
+```
+
+### Docker
+se si ha `docker` installato, lanciare i comandi
+```bash
+$> docker build . -t geita/discord-bot
+$> docker run --name geita-discordbot -d geita/discord-bot
+```
