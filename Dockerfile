@@ -4,5 +4,5 @@ WORKDIR /usr/src/app
 
 COPY . .
 
-CMD [ "node", "ge-it-bot.js" ]
+CMD [ "node", "index.js" ]
 

@@ -43,24 +43,24 @@ client.on('interactionCreate', async interaction => {
   else if (commandName === ('godot_doc')) {
     await interaction.reply('<:godot:545213465099239434> **Documentazione ufficiale di Godot Engine (inglese):** https://docs.godotengine.org/en/3.0/')
   }
-  else if (commandName === ('jam')) {
+  // else if (commandName === ('jam')) {
     
-    await interaction.reply("⬇️ **Partecipi alla Jam? Scegli il tuo ruolo!** ⬇️\n")
-    .then(() => await interaction.reply("Partecipante:"))
-    .then((msg) => msg.react('✋'))
-    .then(() => await interaction.reply("In cerca di gruppo:"))
-    .then((msg) => msg.react('🤝'))
-    .then(() => { const embed = new Discord.RichEmbed()
-      .setTitle('Godot Engine Italia')
-      .setColor('0x0000ff')
-      .setDescription('Prima Game Jam di GodotEngine – Italia')
-      .setURL('https://godotengineitalia.com/prima-game-jam-della-community-godot-italia/')
-      .setThumbnail('https://images-ext-1.discordapp.net/external/jqW2frvIPtpHlckjYIw-B_Va_3w1fxAQM7y6VldbZfA/https/godotengineitalia.com/wp-content/uploads/2019/06/copertina-game_jam.jpg')
-      await interaction.reply(embed)
-    })
-    .then(() => await interaction.reply("Utente Regolare:"))
-    .then((msg) => msg.react('👤'))
-  }
+  //   await interaction.reply("⬇️ **Partecipi alla Jam? Scegli il tuo ruolo!** ⬇️\n")
+  //   .then(() => await interaction.reply("Partecipante:"))
+  //   .then((msg) => msg.react('✋'))
+  //   .then(() => await interaction.reply("In cerca di gruppo:"))
+  //   .then((msg) => msg.react('🤝'))
+  //   .then(() => { const embed = new Discord.RichEmbed()
+  //     .setTitle('Godot Engine Italia')
+  //     .setColor('0x0000ff')
+  //     .setDescription('Prima Game Jam di GodotEngine – Italia')
+  //     .setURL('https://godotengineitalia.com/prima-game-jam-della-community-godot-italia/')
+  //     .setThumbnail('https://images-ext-1.discordapp.net/external/jqW2frvIPtpHlckjYIw-B_Va_3w1fxAQM7y6VldbZfA/https/godotengineitalia.com/wp-content/uploads/2019/06/copertina-game_jam.jpg')
+  //     await interaction.reply(embed)
+  //   })
+  //   .then(() => await interaction.reply("Utente Regolare:"))
+  //   .then((msg) => msg.react('👤'))
+  // }
 
 
  // reboot
