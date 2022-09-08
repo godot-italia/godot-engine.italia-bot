@@ -1,6 +1,11 @@
-FROM node
+FROM node:latest
+ENV NODE_ENV=production
 
-WORKDIR /usr/src/app
+WORKDIR /app
+
+COPY ["package.json", "package-lock.json*", "./"]
+
+RUN npm install --production
 
 COPY . .
 
